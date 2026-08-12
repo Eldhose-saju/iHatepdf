@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/uploads/*
+data/processed/*
+data/vectors/*
+!data/uploads/.gitkeep
+!data/processed/.gitkeep
+!data/vectors/.gitkeep
+data/studymate.db
+.pytest_cache/
+*.egg-info/
+.DS_Store

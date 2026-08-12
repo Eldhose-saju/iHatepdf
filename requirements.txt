@@ -1,0 +1,25 @@
+# Core
+streamlit>=1.38
+
+# Document parsing
+pypdf>=5.0
+python-docx>=1.1
+python-pptx>=1.0
+
+# OCR
+pytesseract>=0.3.10
+pillow>=10.0
+pypdfium2>=4.0     # used for rasterizing PDF pages for OCR
+
+# Embeddings / vector math
+numpy>=1.26
+# sentence-transformers is OPTIONAL. Without it, the app automatically
+# falls back to a local hashing embedder (see src/studymate/embeddings/service.py).
+# Uncomment to enable higher-quality embeddings:
+# sentence-transformers>=3.0
+
+# Local LLM
+requests>=2.31    # talks to a local Ollama server; no cloud API key needed
+
+# Testing
+pytest>=8.0

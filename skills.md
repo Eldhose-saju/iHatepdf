@@ -1,4 +1,4 @@
-# skills.md — StudyMate AI Agent Skills
+# skills.md 
 
 ## Purpose
 
