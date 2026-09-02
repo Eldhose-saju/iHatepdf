@@ -127,3 +127,4 @@ PDF, DOCX, PPTX, and common image formats (PNG, JPG, TIFF, BMP).
   LLM itself (the LLM's JSON output doesn't carry that back).
 - RAG/study-tool generation quality depends entirely on the local model
   you run via Ollama; no cloud fallback is implemented by design.
+hii alll
